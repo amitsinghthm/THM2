@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 export default function Blog3() {
   return (
     <div className="flex flex-col items-center justify-center p-8">

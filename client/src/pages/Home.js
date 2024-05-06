@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 export default function Home() {
   const navigate = useNavigate();
   return (
@@ -10,6 +9,7 @@ export default function Home() {
           src="/images/filler2.jpg"
           className=" w-full"
           style={{ display: "block", maxWidth: "100%", height: "auto" }}
+          alt="img"
         />
       </div>
 

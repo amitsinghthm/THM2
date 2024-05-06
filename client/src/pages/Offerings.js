@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 export default function Offerings() {
   const navigate = useNavigate();
   return (
@@ -9,6 +9,7 @@ export default function Offerings() {
           src="/images/filler1.jpg"
           className="block w-full"
           style={{ display: "block", maxWidth: "100%", height: "auto" }}
+          alt="img"
         />
       </div>
 
