@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Blog1 from "./pages/Blog1";
 import Blog2 from "./pages/Blog2";
 import Blog3 from "./pages/Blog3";
+import MemberLogin from "./components/MemberLogin";
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/our-approach" element={<OurApproach />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/member-login" element={<MemberLogin />} />
       </Routes>
       <Footer />
     </BrowserRouter>
