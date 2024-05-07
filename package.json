@@ -9,6 +9,9 @@
     "start":"node index.js",
     "build":"npm run build --prefix client"
   },
+  "engines": {
+    "node": "20.x"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
